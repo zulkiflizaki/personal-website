@@ -1,3 +1,84 @@
-baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+theme = "awesome-identity"
+baseURL = "https://zulkiflizaki.my"
+title = "Mohd Zulkifli Mohd Zaki"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+# Content without language indicator will default to this language
+defaultContentLanguage = "en"
+# Enable to turn relative URLs into absolute
+canonifyURLs = true
+# Do not convert the url/path to lowercase
+disablePathToLower = false
+# Enable Emoji emoticons support for page content
+enableEmoji = true
+# Update the `Lastmod` parameter for each page using the last git commit date for that content file
+enableGitInfo = true
+# Enable generation of `robots.txt` file
+enableRobotsTXT = true
+
+# Google Analytics tracking ID
+googleAnalytics = ""
+
+## Privacy Configurations (GDPR)
+[privacy]
+  [privacy.googleAnalytics]
+    # disable = false
+    # Make the users’ IP addresses are anonymized within Google Analytics
+     anonymizeIP = false
+    # Make the GA templates respect the “Do Not Track” HTTP header
+     respectDoNotTrack = false
+    # Disable the use of Cookies and use Session Storage to Store the GA Client ID
+     useSessionStorage = false
+
+
+## Meta Configurations (HTTP Meta tags & OpenGraph)
+[params.meta]
+  description = "PhD Candidates at RWTH Aachen"
+  keywords = "zulkiflizaki, zulkifli, zulkiflizaki, zz, mohdzulkifli, mohdzulkiflimohdzaki, phd, software engineer, embedded software, embedded, rwth aachen, rwth, engineer, developer, scientist"
+  images = [
+    "/images/profile-blacknwhite.jpg"
+  ]
+
+
+## Profile Configurations
+[params.profile]
+  portrait = "/images/profile-blacknwhite.jpg"
+  firstname = "Mohd Zulkifli"
+  lastname = "Mohd Zaki"
+  title = "PhD Candidate / Software Engineer"
+  bio = """John Smith brings over 40 years experience leading, contributing to, and growing engineering organizations in top [**VR**](https://en.wikipedia.org/wiki/Virtual_reality) technology companies.
+
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et lacinia metus. Aliquam venenatis, orci ornare mollis congue, mi arcu lobortis tellus, id pulvinar ex ante eu mauris.
+
+  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
+  """
+
+## Contacts Configurations
+[params.contacts]
+  email = "zulkiflizaki@gmail.com"
+  github = "zulkiflizaki"
+  twitter = "zulkiflizaki"
+  linkedin = "zulkiflizaki"
+  keybase = "zulkiflizaki"
+#  stackoverflow = "7919458"
+#  medium = "john.smith"
+#  xing = "john.smith"
+#  facebook = "john.smith"
+#  instagram = "john.smith"
+
+## Actions Configurations
+[[params.actions]]
+  name = "Review My CV"
+  url = "https://down.pwntastic.kr/public/cv.pdf"
+[[params.actions]]
+  name = "Ask Me Anything"
+  url = "https://github.com/zulkiflizaki/ama"
+[[params.actions]]
+  name = "Buy Me a Coffee"
+  url = "https://buymeacoff.ee/posquit0"
+
+## Footer Configurations
+[params.footer]
+  copyright = "© 2019 Zulkifli Zaki. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
+  poweredBy = true

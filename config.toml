@@ -76,7 +76,7 @@ googleAnalytics = ""
   url = "https://github.com/zulkiflizaki/ama"
 [[params.actions]]
   name = "Buy Me a Coffee"
-  url = "https://buymeacoff.ee/posquit0"
+  url = "https://buymeacoff.ee/zulkiflizaki"
 
 ## Footer Configurations
 [params.footer]

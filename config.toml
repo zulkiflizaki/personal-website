@@ -1,7 +1,7 @@
 languageCode = "en-us"
 theme = "awesome-identity"
 baseURL = "https://zulkiflizaki.my"
-title = "Mohd Zulkifli Mohd Zaki"
+title = "Mohd Zulkifli Mohd Zaki, P.Tech"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 # Content without language indicator will default to this language
@@ -34,7 +34,7 @@ googleAnalytics = ""
 
 ## Meta Configurations (HTTP Meta tags & OpenGraph)
 [params.meta]
-  description = "PhD Candidates at RWTH Aachen"
+  description = "Educator | Professional Technologist"
   keywords = "zulkiflizaki, zulkifli, zulkiflizaki, zz, mohdzulkifli, mohdzulkiflimohdzaki, phd, software engineer, embedded software, embedded, rwth aachen, rwth, engineer, developer, scientist"
   images = [
     "/images/profile-blacknwhite.jpg"
@@ -46,9 +46,8 @@ googleAnalytics = ""
   portrait = "/images/profile-blacknwhite.jpg"
   firstname = "Mohd Zulkifli"
   lastname = "Mohd Zaki"
-  title = "PhD Candidate / Software Engineer"
-  bio = """John Smith brings over 40 years experience leading, contributing to, and growing engineering organizations in top [**VR**](https://en.wikipedia.org/wiki/Virtual_reality) technology companies.
-
+  title = "Educator | Professional Technologist"
+  bio = """
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et lacinia metus. Aliquam venenatis, orci ornare mollis congue, mi arcu lobortis tellus, id pulvinar ex ante eu mauris.
 
   Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
@@ -70,7 +69,7 @@ googleAnalytics = ""
 ## Actions Configurations
 [[params.actions]]
   name = "Review My CV"
-  url = "https://down.pwntastic.kr/public/cv.pdf"
+  url = "https://"
 [[params.actions]]
   name = "Ask Me Anything"
   url = "https://github.com/zulkiflizaki/ama"
@@ -80,5 +79,5 @@ googleAnalytics = ""
 
 ## Footer Configurations
 [params.footer]
-  copyright = "© 2019 Zulkifli Zaki. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
+  copyright = "© 2023 Zulkifli Zaki. [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)."
   poweredBy = true

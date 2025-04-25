@@ -37,13 +37,13 @@ googleAnalytics = ""
   description = "Educator | Professional Technologist"
   keywords = "zulkiflizaki, zulkifli, zulkiflizaki, zz, mohdzulkifli, mohdzulkiflimohdzaki, phd, software engineer, embedded software, embedded, rwth aachen, rwth, engineer, developer, scientist"
   images = [
-    "/images/profile-blacknwhite.jpg"
+    "/images/new-profile-picture-2025.png"
   ]
 
 
 ## Profile Configurations
 [params.profile]
-  portrait = "/images/New Profile Picture 2024 Gilbi - Resize.png"
+  portrait = "/images/new-profile-picture-2025.png"
   firstname = "Mohd Zulkifli"
   lastname = "Mohd Zaki"
   title = "Educator | Professional Technologist"
